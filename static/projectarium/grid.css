@@ -1,0 +1,11 @@
+.grid {
+    border-collapse: collapse;
+}
+
+.grid th {
+    width: 200px;
+}
+
+.grid th:first-child {
+    width: 150px;
+}

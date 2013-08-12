@@ -1,0 +1,52 @@
+.project h3,
+.sub-project h4 {
+    font-weight: normal;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+
+.task {
+    _border: 1px solid #ff0000;
+    margin: 5px;
+    padding: 5px;
+    border-top: 10px solid #e6e6e6;
+    background: #fff;
+    width: 180px;
+    min-height: 50px;
+}
+
+.task.open {
+    border-top-color: #eccc38;
+}
+
+.task.inprogress {
+    border-top-color: #78b31b;
+}
+
+.task.paused {
+    border-top-color: #eb974e;
+}
+
+.task.review {
+    border-top-color: #3498db;
+}
+
+.task.rejected {
+    border-top-color: #d93f2f;
+}
+
+
+
+.task.done {
+    border-top-color: #78b31b;
+    opacity: 0.3;
+}
+
+.task .thumb {
+    width: 180px;
+}
+
+.task input[type="file"] {
+    width: 100%;
+}

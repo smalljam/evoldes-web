@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+    <title>Projectarium</title>
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="items.css">
+</head>
+<body>
+    <header>
+        <h1>Projectarium</h1>
+    </header>
+
+<table class="grid">
+    <thead>
+        <tr>
+            <th></th>
+            <th>Design</th>
+            <th>Coding</th>
+            <th>Programming</th>
+            <th>
+                <button type="new-phase">Add</button>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="project">
+            <td><h3>Ромбики</h3></td>
+            <td>
+                <div class="task inprogress">нарисовать лендинг</div>
+            </td>
+            <td>
+                <div class="task open">сверстать</div>
+            </td>
+            <td>
+                <div class="task open">запрограмить</div>
+            </td>
+        </tr>
+        <tr class="project">
+            <td><h3>Ромбики2</h3></td>
+            <td>
+                <div class="task done">лого</div>
+            </td>
+            <td>
+                <div class="task rejected">сверстать в SVG</div>
+            </td>
+            <td>
+                <button type="add-task">Add task</button>
+            </td>
+        </tr>
+        <tr class="project">
+            <td><h3>Ромбики3</h3></td>
+            <td>
+                <div class="task review">игровой мир</div>
+            </td>
+            <td>
+                <button type="add-task">Add task</button>
+            </td>
+            <td>
+                <button type="add-task">Add task</button>
+            </td>
+        </tr>
+        <tr class="project">
+            <td><h3>Ромбики4</h3></td>
+            <td>
+                <div class="task paused">Лендинг</div>
+            </td>
+            <td>
+                <button type="add-task">Add task</button>
+            </td>
+            <td>
+                <button type="add-task">Add task</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="add-project">Add project</button>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<script src="jquery-1.10.2.js"></script>
+<script src="engine.js"></script>
+</body>
+</html>
