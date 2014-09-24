@@ -1,0 +1,114 @@
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin-top: 0px;
+  font-family: Bitter, serif;
+  color: #333;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+}
+h1 {
+  position: static;
+  left: 0%;
+  top: 40%;
+  right: 0px;
+  z-index: 0;
+  display: block;
+  margin: 40px auto;
+  padding-top: 0px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-family: Bitter, serif;
+  color: black;
+  font-size: 64px;
+  line-height: 80px;
+  font-weight: 400;
+  text-align: center;
+}
+p {
+  position: static;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-family: Bitter, serif;
+  color: black;
+  font-size: 18px;
+  line-height: 28px;
+}
+.logo {
+  position: static;
+  left: 0px;
+  top: 20px;
+  right: 0px;
+  display: block;
+  overflow-x: visible;
+  overflow-y: visible;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: transparent;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+}
+.link {
+  padding-top: 0px;
+  font-family: Bitter, serif;
+  color: #f549a2;
+  font-size: 18px;
+  text-decoration: none;
+}
+.container {
+  position: static;
+  left: 0px;
+  top: 20%;
+  right: 0px;
+  bottom: 20%;
+  margin-top: 15%;
+}
+@media (max-width: 991px) {
+  .link {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 767px) {
+  h1 {
+    line-height: 72px;
+  }
+  .link {
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 479px) {
+  h1 {
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 48px;
+    line-height: 50px;
+  }
+  p {
+    margin-top: 30px;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+  .logo {
+    top: 20px;
+  }
+  .link {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    padding-bottom: 0px;
+  }
+  .container {
+    margin-top: 15%;
+  }
+}
+
